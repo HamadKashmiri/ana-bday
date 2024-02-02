@@ -1,6 +1,6 @@
 // StyledComponent.tsx
 import React from "react";
-import { styled, keyframes } from "@mui/system";
+import { styled } from "@mui/system";
 import Countdown from "react-countdown";
 import Typography from "@mui/material/Typography";
 
