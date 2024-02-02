@@ -76,26 +76,18 @@ const InteractiveButton = styled("button")({
 });
 
 const Title = styled(Typography)({
-  fontSize: "3em",
+  fontSize: "2.5em",
   fontWeight: "bold",
   marginBottom: "20px",
-  color: "#7e6dff", // Purple color to match the button
+  color: "#7e6dff", // Purple color to match the button#
+  display: "flex",
+  alignContent: "center",
+  margin: "0 auto",
+  paddingBottom: "20px",
 });
 
 const StyledComponent: React.FC = () => {
-  const funElements = [
-    "🎉",
-    "⭐",
-    "🎩",
-    "🎊",
-    "🍰",
-    "🎁",
-    "🎶",
-    "🎊",
-    "🎈",
-    "⭐",
-    "🎈",
-  ];
+  const funElements = ["🎉", "⭐", "🎊", "🎈"];
 
   const handleButtonClick = () => {
     alert(
@@ -105,7 +97,10 @@ const StyledComponent: React.FC = () => {
 
   return (
     <StyledContainer>
-      <Title variant="h1">Dosa Seckis Evuning So todaaaay</Title>
+      <Title variant="h1">Dosa Seckis</Title>
+      <Title variant="h1">Evuning</Title>
+      <Title variant="h1">So todaaaay</Title>
+
       <CountdownContainer>
         <Typography
           variant="h3"
