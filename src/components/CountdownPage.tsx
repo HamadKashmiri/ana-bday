@@ -105,7 +105,7 @@ const StyledComponent: React.FC = () => {
 
   return (
     <StyledContainer>
-      <Title variant="h1">Big Beautiful Title</Title>
+      <Title variant="h1">Dosa Seckis Evuning So todaaaay</Title>
       <CountdownContainer>
         <Typography
           variant="h3"
